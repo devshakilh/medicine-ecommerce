@@ -56,7 +56,7 @@ export const register = async (req: Request, res: Response) => {
     await newUser.save();
 
     // Send verification email
-    const verificationUrl = `http://localhost:5000/api/auth/verify/${verificationToken}`;
+    const verificationUrl = `https://medicine-ecommerce.onrender.com/api/auth/verify/${verificationToken}`;
     await transporter.sendMail({
       to: email,
       subject: 'Email Verification',
@@ -155,7 +155,7 @@ export const resendVerification = async (req: Request, res: Response) => {
     user.verificationTokenExpiry.setHours(user.verificationTokenExpiry.getHours() + 1); // Token expires in 1 hour
     await user.save();
 
-    const verificationUrl = `http://localhost:5000/api/auth/verify/${verificationToken}`;
+    const verificationUrl = `https://medicine-ecommerce.onrender.com/api/auth/verify/${verificationToken}`;
     await transporter.sendMail({
       to: email,
       subject: 'Email Verification',
