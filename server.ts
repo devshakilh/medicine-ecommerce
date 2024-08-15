@@ -25,7 +25,7 @@ app.use(express.json());
 
 
 app.use(cors({
-    origin: 'http://localhost:3000', // Replace with your frontend URL if different
+    origin: 'https://medicine-ecommerce.onrender.com', // Replace with your frontend URL if different
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true, // If you're using cookies or other credentials
   }));
