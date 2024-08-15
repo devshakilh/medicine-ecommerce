@@ -1,7 +1,6 @@
-Certainly! Below are separate README files for the frontend and backend of your medicine e-commerce platform. Each README file is tailored to your project's requirements and technology stack.
 
-### Frontend README (`frontend/README.md`)
-
+### Database sheet link (`frontend/README.md`)
+https://docs.google.com/document/d/1-f1iHq1KWeaQspRKLwzrb9Z9o5VaA1D_AzmsDkPfKBg/edit?usp=sharing
 ```markdown
 # Medicine E-Commerce Platform - Frontend
 
@@ -225,7 +224,7 @@ Deploy the backend to Heroku or any other cloud provider.
 
 ## Documentation
 
-- **API Endpoints:** Detailed API documentation available in the `/docs` directory.
+- **API Endpoints:** Detailed API documentation is available in the `/docs` directory.
 - **Models and Controllers:** Refer to `/models` and `/controllers` for structure and logic.
 
 ## Contributing
@@ -235,11 +234,3 @@ Deploy the backend to Heroku or any other cloud provider.
 3. Commit your changes (`git commit -am 'Add new feature'`).
 4. Push to the branch (`git push origin feature/your-feature`).
 5. Create a pull request.
-
-## License
-
-This project is licensed under the MIT License.
-
-```
-
-These README files should provide a clear and comprehensive guide for setting up, running, and contributing to both the frontend and backend of your project.
